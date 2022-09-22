@@ -171,7 +171,7 @@ class InsertProduct implements DataPatchInterface
     /**
      * {@inheritDoc}
      */
-    public function getAliases()
+    public function getAliases(): array
     {
         return [];
     }
