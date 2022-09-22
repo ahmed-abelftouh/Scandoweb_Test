@@ -177,10 +177,3 @@ class InsertProduct implements DataPatchInterface
         return [];
     }
 }
-
-
-
-
-
-
-
