@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-
+//@formatter:off
 namespace Scandiweb\Test\Setup\Patch\Data;
 
 use Exception;
@@ -100,8 +100,7 @@ class InsertProduct implements DataPatchInterface
         SourceItemInterfaceFactory      $sourceItemFactory,
         SourceItemsSaveInterface        $sourceItemsSaveInterface,
         CategoryLinkManagementInterface $categoryLink
-    )
-    {
+    ) {
         $this->appState = $appState;
         $this->productInterfaceFactory = $productInterfaceFactory;
         $this->productRepository = $productRepository;
